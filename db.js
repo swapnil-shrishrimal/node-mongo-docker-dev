@@ -12,7 +12,7 @@ const options = {
   useNewUrlParser: true,
   reconnectTries: Number.MAX_VALUE,
   reconnectInterval: 500,
-  connectTimeoutMS: 10000,
+  connectTimeoutMS: 100000,
 };
 
 const url = `mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOSTNAME}:${MONGO_PORT}/${MONGO_DB}?authSource=admin`;
